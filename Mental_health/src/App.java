@@ -10,7 +10,7 @@ public class App extends Application {
     public void start(Stage primaryStage) {
         try {
             // Load the FXML file (make sure the path is correct)
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("LP.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("LG.fxml"));
             Parent root = loader.load();
             
             // Set the scene
